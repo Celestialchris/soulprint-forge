@@ -1,0 +1,61 @@
+# ──────────── Python Bytecode ────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ──────────── Virtual Environments ────────────
+venv/
+env/
+.venv/
+
+# ──────────── Flask Instance Folder ────────────
+instance/
+!instance/config.py
+instance/__pycache__/
+instance/*.db
+instance/*.log
+
+# ──────────── Secrets & Environment ────────────
+.env
+*.env
+secrets.json
+.flaskenv
+
+# ──────────── Databases ────────────
+*.db
+*.sqlite3
+
+# ──────────── Uploads and Large Files ────────────
+uploads/
+*.json
+*.md
+*.html
+
+# ──────────── Logs ────────────
+*.log
+
+# ──────────── IDE & Editor Files ────────────
+.idea/
+.vscode/
+
+# ──────────── Packaging ────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ──────────── Testing & Caching ────────────
+htmlcov/
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# ──────────── C Extensions ────────────
+*.so
+
+# ──────────── macOS & System ────────────
+.DS_Store
+
+# ──────────── Optional Memory Folders ────────────
+/mnt/data/soulprint_inbox/
+mem0/__pycache__/

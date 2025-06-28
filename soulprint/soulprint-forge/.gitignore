@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore uploads and local logs
+uploads/
+*.log
+
+# SQLite DBs
+*.db
+
+# Ignore environment variables
+.env
+.flaskenv
+# VSCode settings (optional)
+.vscode/
