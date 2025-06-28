@@ -1,5 +1,0 @@
-## SoulPrint Ingestion
-
-- Markdown Ingest: `python -m soulprint.app.utils.ingest_md_folder`
-- JSON Ingest: `python -m soulprint.app.utils.ingest_json`
-- Web View: `http://127.0.0.1:5000/view?tag=...`
