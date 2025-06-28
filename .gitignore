@@ -8,6 +8,11 @@ venv/
 env/
 .venv/
 
+# ──────────── Ignore all markdowns EXCEPT these ────────────
+!README.md
+!CONTRIBUTING.md
+!SETUP.md
+
 # ──────────── Flask Instance Folder ────────────
 instance/
 !instance/config.py
@@ -29,6 +34,7 @@ secrets.json
 uploads/
 *.json
 *.html
+*.md
 
 # ──────────── Logs ────────────
 *.log
